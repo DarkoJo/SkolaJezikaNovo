@@ -15,6 +15,8 @@ namespace SkolaJezikaNovo
         {
             Document document = new Document();
 
+            string test = "`12";
+
             string filePath = $"Kurs_{kurs.ImeKursa}.pdf";
 
             FileStream fs = new FileStream(filePath, FileMode.Create);
